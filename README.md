@@ -6,8 +6,7 @@ This repository contains the data science exercises developed as part of the Spe
 The exercises for the first course were conducted using an Airbnb dataset containing information on rental listings in Amsterdam. The original dataset is publicly available at https://insideairbnb.com/get-the-data/, though the version used in this course was modified for academic purposes.
 
 ### Exercises
-- [Exercise 1: Exploratory Data Analysis - Airbnb Amsterdam](Ejercicio_1_Airbnb.ipynb)
-
+[Exercise 1: Exploratory Data Analysis - Airbnb Amsterdam](Airbnb_1.ipynb)
 This exercise test four statistical hypotheses about rental listings. Using descriptive statistics and data analysis techniques such as frequency tables, percentiles, measures of central tendency, and standard deviation, the following hypotheses were evaluated:
 
 1. 53% of review scores fall between 20 and 96 points. 
