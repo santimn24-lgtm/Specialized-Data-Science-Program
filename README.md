@@ -14,4 +14,4 @@ This exercise test four statistical hypotheses about rental listings. Using desc
 3. 20% of properties are rented below the city average price. 
 4. Alberto claims to have rented a property for 130 euros, one standard deviation above the average. 
 
-Tools used: Python, Pandas, NumPy
+Tools used: Pandas, NumPy, Matplotlib, Plotly
