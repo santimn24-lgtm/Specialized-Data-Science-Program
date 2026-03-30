@@ -16,7 +16,7 @@ This exercise test four statistical hypotheses about rental listings. Using desc
 
 Tools used: Pandas, NumPy, Matplotlib, Plotly
 
-#### [Exercise 1: Airbnb Amsterdam](Airbnb_2.ipynb)
+#### [Exercise 2: Airbnb Amsterdam](Airbnb_2.ipynb)
 This exercise tests five statistical hypotheses about rental listings. Using descriptive statistics and data analysis techniques such as frequency tables, percentiles, measures of central tendency, and measures of variation the following hypotheses were evaluated:
 
 1. 50% of the listings on the platform primarily offer hotel rooms.
