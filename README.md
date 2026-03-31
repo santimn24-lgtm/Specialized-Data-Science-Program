@@ -35,3 +35,12 @@ The hypotheses to be tested are:
 2. The relationship between rental price and the number of rooms is inversely proportional.
 
 Tools used: Pandas, NumPy, Plotly
+
+#### [Exercise 4: Airbnb Amsterdam](Airbnb_4.ipynb)
+This exercise tests three statistical hypotheses regarding rental listings. Using descriptive statistics and data analysis techniques, such as frequency tables, percentiles, and filtering, the following hypotheses were evaluated:
+
+1. If a property with a review score between 80 and 89 points is listed, 80% of the listings are likely to be private rooms, houses, or apartments.
+2. If a house or apartment is rented, 30% of the listings will have a review score between 80 and 100 points.
+3. 30% of the listings are private rooms with review scores between 90 and 100 points.
+
+Tools used: Pandas, NumPy, Matplotlib, Plotly
