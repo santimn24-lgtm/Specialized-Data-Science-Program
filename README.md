@@ -26,3 +26,12 @@ This exercise tests five statistical hypotheses about rental listings. Using des
 5. The listings with the best price scores are houses, apartments, and hotel rooms.
 
 Tools used: Pandas, NumPy, Plotly
+
+#### [Exercise 3: Airbnb Amsterdam](Airbnb_3.ipynb)
+In this study, visualization techniques and correlation coefficient calculations (Pearson and Spearman) were used to analyze the relationship between variables and evaluate the hypotheses regarding direct and inverse proportionality.
+The hypotheses to be tested are:
+
+1. Review scores and communication scores are directly proportional.
+2. The relationship between rental price and the number of rooms is inversely proportional.
+
+Tools used: Pandas, NumPy, Plotly
