@@ -44,3 +44,9 @@ This exercise tests three statistical hypotheses regarding rental listings. Usin
 3. 30% of the listings are private rooms with review scores between 90 and 100 points.
 
 Tools used: Pandas, NumPy, Matplotlib, Plotly
+
+#### [Exercise 5: Airbnb Amsterdam](Airbnb_5.ipynb)
+
+The objective of this exercise was to construct a confidence interval for real estate prices, perform hypothesis testing, and conduct a p-test to compare samples of two-bedroom apartments located in the Centrum-Oost and Centrum-West neighborhoods, in order to determine whether or not there is a difference in prices between these two neighborhoods.
+
+Tools used: Pandas, NumPy, Statsmodels.stats
