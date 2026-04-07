@@ -50,3 +50,8 @@ Tools used: Pandas, NumPy, Matplotlib, Plotly
 The objective of this exercise was to construct a confidence interval for real estate prices, perform hypothesis testing, and conduct a p-test to compare samples of two-bedroom apartments located in the Centrum-Oost and Centrum-West neighborhoods, in order to determine whether or not there is a difference in prices between these two neighborhoods.
 
 Tools used: Pandas, NumPy, Statsmodels.stats
+
+#### [Exercise 6: Airbnb Amsterdam](Airbnb_6.ipynb)
+In this study, a one-way analysis of variance (ANOVA) was conducted to assess whether there are significant differences in property prices based on the type of accommodation (room_type) in the central area of Amsterdam (Centrum-Oost and Centrum-West).
+
+Tools used: Pandas, NumPy, scipy.stats, Matplotlib, seaborn
