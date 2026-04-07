@@ -2,6 +2,12 @@
 
 This repository contains the data science exercises developed as part of the Specialized Data Science Program at Universidad de los Andes.
 
+## Course 2: Predictive models using machine learning
+This course focuses on data analysis and machine learning. It covers supervised and unsupervised models, as well as the development of predictive regression and classification models. It also addresses model evaluation and the management of parameters and hyperparameters, following the comprehensive process of creating data-driven solutions, from problem definition to interpretation.
+
+### Exercises
+
+
 ## Course 1: Introduction to data science
 The exercises for the first course were conducted using an Airbnb dataset containing information on rental listings in Amsterdam. The original dataset is publicly available at https://insideairbnb.com/get-the-data/, though the version used in this course was modified for academic purposes.
 
