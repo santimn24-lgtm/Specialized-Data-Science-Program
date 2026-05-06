@@ -6,7 +6,18 @@ This repository contains the data science exercises developed as part of the Spe
 This course focuses on data analysis and machine learning. It covers supervised and unsupervised models, as well as the development of predictive regression and classification models. It also addresses model evaluation and the management of parameters and hyperparameters, following the comprehensive process of creating data-driven solutions, from problem definition to interpretation.
 
 ### Exercises
+#### [Exercise 1: Real State Sells](Real_state_1.ipynb)
+This exercise constitutes the initial phase of a machine learning process, focusing on exploratory data analysis (EDA) and descriptive statistics of real estate market data. The study analyzes key variables such as the number of bedrooms, bathrooms, floor area (in square feet), lot size, and property condition to understand their distribution and influence on housing prices.
 
+The analysis focuses on:
+
+Data profiling: Implementation of automated reports to obtain a 360° view of the state of the dataset and its statistical distributions.
+
+Descriptive statistics: Evaluation of central tendency, dispersion, and completeness of technical characteristics such as year of construction and property rating.
+
+Visual exploration: Identification of patterns and correlations between physical characteristics and the target variable (price).
+
+Tools used: Pandas, Matplotlib, Seaborn, YData Profiling (ProfileReport)
 
 ## Course 1: Introduction to data science
 The exercises for the first course were conducted using an Airbnb dataset containing information on rental listings in Amsterdam. The original dataset is publicly available at https://insideairbnb.com/get-the-data/, though the version used in this course was modified for academic purposes.
