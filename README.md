@@ -19,6 +19,20 @@ Visual exploration: Identification of patterns and correlations between physical
 
 Tools used: Pandas, Matplotlib, Seaborn, YData Profiling (ProfileReport)
 
+#### [Exercise 2: Real State Sells](Real_state_2.ipynb)
+This project implements a **linear regression model** to predict rental prices in Amsterdam. The workflow includes data preparation, model construction, evaluation, and statistical interpretation.
+
+**Key Results:**
+- **R² = 0.90** (model explains 90% of price variability)
+- Model is statistically significant (F-statistic = 5470, p = 0.00)
+- Strongest predictors: `grado` (+75,810€), `numero_pisos` (+43,130€), `condición` (+25,380€)
+- Severe multicollinearity detected (Condition Number = 148,000)
+
+**Conclusions:**
+The model has excellent predictive power but multicollinearity distorts individual coefficient interpretations. Useful for predictions, but caution needed when interpreting isolated variable effects.
+
+**Tools used:** Pandas, NumPy, Scikit-learn, Statsmodels
+
 ## Course 1: Introduction to data science
 The exercises for the first course were conducted using an Airbnb dataset containing information on rental listings in Amsterdam. The original dataset is publicly available at https://insideairbnb.com/get-the-data/, though the version used in this course was modified for academic purposes.
 
