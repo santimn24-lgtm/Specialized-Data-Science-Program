@@ -27,7 +27,7 @@ The model has excellent predictive power but multicollinearity distorts individu
 
 Tools used: Pandas, NumPy, Scikit-learn, Statsmodels
 
-#### [Exercise 3: Real State Polynomial vs Linear Regression](Real_state_2.ipynb)
+#### [Exercise 3: Real State Polynomial vs Linear Regression](Real_state_3.ipynb)
 
 This notebook compares the performance of a second-degree polynomial regression model against a standard linear regression model to predict property prices.
 
