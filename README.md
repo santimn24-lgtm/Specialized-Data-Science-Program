@@ -11,7 +11,7 @@ This exercise performs exploratory data analysis (EDA) on real estate data, anal
 
 The analysis includes automated data profiling, descriptive statistics, and visual exploration of correlations with price.
 
-**Tools used:** Pandas, Matplotlib, Seaborn, YData Profiling
+Tools used: Pandas, Matplotlib, Seaborn, YData Profiling
 
 #### [Exercise 2: Real State Sells](Real_state_2.ipynb)
 This project uses a linear regression model to predict home prices. The process includes data preparation, model building, evaluation, and statistical interpretation.
