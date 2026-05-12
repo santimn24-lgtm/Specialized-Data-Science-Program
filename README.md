@@ -27,6 +27,14 @@ The model has excellent predictive power but multicollinearity distorts individu
 
 Tools used: Pandas, NumPy, Scikit-learn, Statsmodels
 
+#### [Exercise 3: Real State Polynomial vs Linear Regression](Real_state_2.ipynb)
+
+This notebook compares the performance of a second-degree polynomial regression model against a standard linear regression model to predict property prices.
+
+Tools used: Pandas, Scikit-learn (LinearRegression, PolynomialFeatures, train_test_split, metrics), Matplotlib
+
+Methodology: Aligned with ASUM-DM (IBM) phases: Business Understanding → Data Preparation → Model Building → Evaluation
+
 ## Course 1: Introduction to data science
 The exercises for the first course were conducted using an Airbnb dataset containing information on rental listings in Amsterdam. The original dataset is publicly available at https://insideairbnb.com/get-the-data/, though the version used in this course was modified for academic purposes.
 
