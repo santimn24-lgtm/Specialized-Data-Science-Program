@@ -39,11 +39,9 @@ Methodology: Aligned with ASUM-DM (IBM) phases: Business Understanding → Data 
 
 Predicts property prices using Ridge and Lasso regression with hyperparameter tuning (α = [0.1, 0.25, 0.5]) via GridSearchCV.
 
-**Key insights:**
-- Both regularized models outperform linear regression
+Key insights:
 - No features eliminated by Lasso (all 9 contribute)
 - Most important feature: `grado` (+82,318)
-- Least important: `area_del_lote_pie2` (+3,199)
 
 Tools: Pandas, Scikit-learn (Ridge, Lasso, Pipeline, GridSearchCV), Matplotlib
 
