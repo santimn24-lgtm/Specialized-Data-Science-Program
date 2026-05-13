@@ -35,7 +35,7 @@ Tools used: Pandas, Scikit-learn (LinearRegression, PolynomialFeatures, train_te
 
 Methodology: Aligned with ASUM-DM (IBM) phases: Business Understanding → Data Preparation → Model Building → Evaluation
 
-#### [Exercise 4: Real State Polynomial vs Linear Regression](Real_state_4.ipynb)
+#### [Exercise 4: Real State Regularized Regression (Ridge & Lasso)](Real_state_4.ipynb)
 
 Predicts property prices using Ridge and Lasso regression with hyperparameter tuning (α = [0.1, 0.25, 0.5]) via GridSearchCV.
 
