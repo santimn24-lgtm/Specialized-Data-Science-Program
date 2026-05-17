@@ -13,8 +13,7 @@ Key Results:
 
 - Best model: Polynomial (degree 2) – R² = 0.235, RMSE = 17,184, MAE = 3499.11
 - Ridge α = 1.0, Lasso α = 5
-- Lasso eliminated 5 features
-- Most important predictor: clase_incendio_G (coefficient +8,141)
+- Lasso eliminated 5 features and the most important predictor was clase_incendio_G (coefficient +8,141)
 
 Tools used: Pandas, NumPy, Scikit-learn (LinearRegression, Ridge, Lasso, PolynomialFeatures, Pipeline, GridSearchCV), Matplotlib, Statsmodels
 
