@@ -6,7 +6,7 @@ This repository contains the data science exercises developed as part of the Spe
 This course focuses on data analysis and machine learning. It covers supervised and unsupervised models, as well as the development of predictive regression and classification models. It also addresses model evaluation and the management of parameters and hyperparameters, following the comprehensive process of creating data-driven solutions, from problem definition to interpretation.
 
 ### Projects
-#### [Forest Fire Burned Area Prediction](Predictive_models_applied_to_wildfires.ipynb)
+#### [Regression model: Forest Fire Burned Area](Predictive_models_applied_to_wildfires.ipynb)
 Predicts burned area using Linear, Ridge, Lasso, and Polynomial (degree 2) regression. Hyperparameter tuning via GridSearchCV (Ridge α=[0.1,0.5,1.0], Lasso α=[1,2,3,4,5]) and validation set for polynomial degree selection.
 
 Key Results:
