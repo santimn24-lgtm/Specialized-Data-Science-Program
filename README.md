@@ -6,6 +6,22 @@ This repository contains the data science exercises developed as part of the Spe
 This course focuses on data analysis and machine learning. It covers supervised and unsupervised models, as well as the development of predictive regression and classification models. It also addresses model evaluation and the management of parameters and hyperparameters, following the comprehensive process of creating data-driven solutions, from problem definition to interpretation.
 
 ### Projects
+
+#### [Classification model: Cardiovascular Disease Prediction - Decision Tree](Decision_tree_Cardiovascular_diseases.ipynb)
+Predicts cardiovascular disease (CVD) risk using a Decision Tree classifier with clinical and lifestyle patient data.
+
+Key Results:
+
+- Accuracy: 64%
+- True Positives (CVD detected): 4,151
+- False Negatives (CVD missed): 2,577
+
+Key Insights:
+- Age and weight together account for 45.1% of predictive importance
+- Lifestyle factors (smoking, alcohol, physical activity) showed minimal influence
+
+Tools used: Pandas, Scikit-learn (DecisionTreeClassifier), Matplotlib, ydata_profiling
+
 #### [Regression model: Forest Fire Burned Area](Regression_model_wildfires.ipynb)
 Predicts burned area using Linear, Ridge, Lasso, and Polynomial (degree 2) regression. Hyperparameter tuning via GridSearchCV (Ridge α=[0.1,0.5,1.0], Lasso α=[1,2,3,4,5]) and validation set for polynomial degree selection.
 
@@ -15,7 +31,7 @@ Key Results:
 - Ridge α = 1.0, Lasso α = 5
 - Lasso eliminated 5 features and the most important predictor was clase_incendio_G (coefficient +8,141)
 
-Tools used: Pandas, NumPy, Scikit-learn (LinearRegression, Ridge, Lasso, PolynomialFeatures, Pipeline, GridSearchCV), Matplotlib, Statsmodels
+Tools used: Pandas, NumPy, Scikit-learn (LinearRegression, Ridge, Lasso, PolynomialFeatures, Pipeline, GridSearchCV), Matplotlib, Statsmodels, ydata_profiling
 
 ### Exercises
 #### [Exercise 1: Real State Sells](Real_state_1.ipynb)
