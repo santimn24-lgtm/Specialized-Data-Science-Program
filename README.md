@@ -5,9 +5,9 @@ This repository contains the data science exercises developed as part of the Spe
 ## Course 2: Predictive models using machine learning
 This course focuses on data analysis and machine learning. It covers supervised and unsupervised models, as well as the development of predictive regression and classification models. It also addresses model evaluation and the management of parameters and hyperparameters, following the comprehensive process of creating data-driven solutions, from problem definition to interpretation.
 
-### Projects
+### Classification models
 
-#### [Classification model: Cardiovascular Disease Prediction - Decision Tree](Decision_tree_Cardiovascular_diseases.ipynb)
+#### [Exercise 1: Cardiovascular Disease Prediction - Decision Tree](Decision_tree_Cardiovascular_diseases.ipynb)
 Predicts cardiovascular disease (CVD) risk using a Decision Tree classifier with clinical and lifestyle patient data.
 
 Key Results:
@@ -22,6 +22,8 @@ Key Insights:
 
 Tools used: Pandas, Scikit-learn (DecisionTreeClassifier), Matplotlib, ydata_profiling
 
+### Predictive models
+
 #### [Regression model: Forest Fire Burned Area](Regression_model_wildfires.ipynb)
 Predicts burned area using Linear, Ridge, Lasso, and Polynomial (degree 2) regression. Hyperparameter tuning via GridSearchCV (Ridge α=[0.1,0.5,1.0], Lasso α=[1,2,3,4,5]) and validation set for polynomial degree selection.
 
@@ -33,7 +35,6 @@ Key Results:
 
 Tools used: Pandas, NumPy, Scikit-learn (LinearRegression, Ridge, Lasso, PolynomialFeatures, Pipeline, GridSearchCV), Matplotlib, Statsmodels, ydata_profiling
 
-### Exercises
 #### [Exercise 1: Real State Sells](Real_state_1.ipynb)
 This exercise performs exploratory data analysis (EDA) on real estate data, analyzing variables such as bedrooms, bathrooms, area, and condition to understand their influence on housing prices.
 
