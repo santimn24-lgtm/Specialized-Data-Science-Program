@@ -7,6 +7,25 @@ This course focuses on data analysis and machine learning. It covers supervised 
 
 ### Classification models
 
+#### [Water Quality Prediction - Decision Tree](Water_Quality_Classification_Model.ipynb)
+Predicts water suitability for human consumption using a Decision Tree classifier based on physicochemical parameters. Hyperparameter tuning performed with GridSearchCV (criterion: gini/entropy, max_depth: 4-12, min_samples_split: 3-5) with class_weight='balanced'.
+
+Key Results:
+
+| Metric | Value |
+|--------|-------|
+| Best Parameters | criterion='gini', max_depth=10, min_samples_split=4 |
+| Accuracy | 59% |
+| Recall (YES - suitable) | 61% |
+| Precision (NO - unsuitable) | 71% |
+
+Key Insights:
+- pH and sulfates are the dominant predictors of water quality
+- Recall is the most critical metric (identifying safe water for consumption)
+- Model performance is moderate (59% accuracy) and could be improved with more data or ensemble methods
+
+Tools used: Pandas, Scikit-learn (DecisionTreeClassifier, GridSearchCV), Matplotlib, Seaborn, YData Profiling
+
 #### [Exercise 2: Cardiovascular Disease Prediction - Decision Tree with Hyperparameter Tuning](Decision_tree_Hyperparameter_tuning.ipynb)
 Compares default vs tuned Decision Tree classifiers for cardiovascular disease (CVD) risk prediction using clinical and lifestyle patient data. Hyperparameter tuning performed with GridSearchCV (criterion: gini/entropy, max_depth: 4-10, min_samples_split: 2-5).
 
