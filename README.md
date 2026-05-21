@@ -7,6 +7,24 @@ This course focuses on data analysis and machine learning. It covers supervised 
 
 ### Classification models
 
+#### [Exercise 2: Cardiovascular Disease Prediction - Decision Tree with Hyperparameter Tuning](Decision_tree_Hyperparameter_tuning.ipynb)
+Compares default vs tuned Decision Tree classifiers for cardiovascular disease (CVD) risk prediction using clinical and lifestyle patient data. Hyperparameter tuning performed with GridSearchCV (criterion: gini/entropy, max_depth: 4-10, min_samples_split: 2-5).
+
+Key Results:
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|--------|----------|
+| Default | 63.7% | 63.8% | 61.7% | 62.7% |
+| Tuned | 73.0% | 75.7% | 67.0% | 71.1% |
+
+Key Insights:
+- Hyperparameter tuning improved accuracy by +9.3%
+- Tuned model identified **systolic blood pressure** as dominant predictor (73.3% importance)
+- Anthropometric variables (weight, height) lost relevance after tuning
+- Lifestyle factors showed minimal influence across both models
+
+Tools used: Pandas, Scikit-learn (DecisionTreeClassifier), Matplotlib, ydata_profiling
+
 #### [Exercise 1: Cardiovascular Disease Prediction - Decision Tree](Decision_tree_Cardiovascular_diseases.ipynb)
 Predicts cardiovascular disease (CVD) risk using a Decision Tree classifier with clinical and lifestyle patient data.
 
