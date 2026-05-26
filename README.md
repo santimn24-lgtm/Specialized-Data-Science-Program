@@ -5,6 +5,15 @@ This repository contains the data science exercises developed as part of the Spe
 ## Course 3: Data Integration and Preparation
 This course covers data integration from multiple sources and essential preparation techniques aligned with ASUM-DM. Topics include data profiling, type validation, consistency checks, duplicate handling, fuzzy matching, feature engineering (normalization, transformation, PCA, scaling), and text processing with spaCy (tokenization). The focus is on preparing reliable, high-quality data for downstream analytics.
 
+#### [Exercise 2: Data Integration with Merge and Join](join.ipynb)
+
+Demonstrates the difference between `merge()` and `join()` for data integration in pandas:
+
+- `merge()`: SQL-style joins based on columns (relational). Ideal when DataFrames share a key column.
+- `join()`: Index-based joining. Simpler syntax for combining DataFrames by their indices.
+
+Tools used: Pandas (merge, join)
+
 #### [Exercise 1: Working with different types of files](Load_data.ipynb)
 Loads and compares three data files in different formats (CSV, Excel, JSON) to identify structural differences, data types, and content patterns.
 
