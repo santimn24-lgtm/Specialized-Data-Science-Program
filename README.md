@@ -2,6 +2,19 @@
 
 This repository contains the data science exercises developed as part of the Specialized Data Science Program at Universidad de los Andes.
 
+## Course 3: Data Integration and Preparation
+This course covers data integration from multiple sources and essential preparation techniques aligned with ASUM-DM. Topics include data profiling, type validation, consistency checks, duplicate handling, fuzzy matching, feature engineering (normalization, transformation, PCA, scaling), and text processing with spaCy (tokenization). The focus is on preparing reliable, high-quality data for downstream analytics.
+
+#### [Exercise 1: Working with different types of files](Load_data.ipynb)
+Loads and compares three data files in different formats (CSV, Excel, JSON) to identify structural differences, data types, and content patterns.
+
+Key Insights:
+- CSV and Excel Sheet 2 are equivalent (same dimensions and patterns)
+- Excel Sheet 1 is smaller (100 rows) with unnamed columns
+- JSON is a minimal dataset (10 rows, 10 columns)
+
+Tools used: Pandas, OS, JSON
+
 ## Course 2: Predictive models using machine learning
 This course focuses on data analysis and machine learning. It covers supervised and unsupervised models, as well as the development of predictive regression and classification models. It also addresses model evaluation and the management of parameters and hyperparameters, following the comprehensive process of creating data-driven solutions, from problem definition to interpretation.
 
