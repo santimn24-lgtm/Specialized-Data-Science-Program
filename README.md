@@ -21,18 +21,24 @@ Tools used: Pandas, YData Profiling, Scikit-learn (StandardScaler, PCA), Matplot
 
 **Note:** The command for generating the report with YData Profiling is commented out to reduce the file size
 
-#### [Exercise 4: spaCy transformations](spacy.ipynb)
-Analyzes hotel review descriptions using spaCy for Spanish to compare semantic similarity between different hotel descriptions.
+#### [Exercise 1: Working with different types of files](Load_data.ipynb)
+Loads and compares three data files in different formats (CSV, Excel, JSON) to identify structural differences, data types, and content patterns.
 
-Key Tasks:
+Key Insights:
+- CSV and Excel Sheet 2 are equivalent (same dimensions and patterns)
+- Excel Sheet 1 is smaller (100 rows) with unnamed columns
+- JSON is a minimal dataset (10 rows, 10 columns)
 
-- Load Spanish language model (`es_core_news_md`)
-- Process hotel descriptions with spaCy (tokenization, lemmatization, POS tagging)
-- Calculate semantic similarity between hotel descriptions using word vectors
+Tools used: Pandas, OS, JSON
 
-Tools used: spaCy, Pandas
+#### [Exercise 2: Data Integration with Merge and Join](join.ipynb)
 
-**Note:** This notebook is an adaptation of the original from Universidad de los Andes, created to demonstrate text transformation skills not covered in the main course project.
+Demonstrates the difference between `merge()` and `join()` for data integration in pandas:
+
+- `merge()`: SQL-style joins based on columns (relational). Ideal when DataFrames share a key column.
+- `join()`: Index-based joining. Simpler syntax for combining DataFrames by their indices.
+
+Tools used: Pandas (merge, join)
 
 #### [Exercise 3: Principal Component Analysis](PCA.ipynb)
 Applies Principal Component Analysis (PCA) to an employee dataset in order to reduce dimensionality and identify the variables that contribute most to employee turnover.
@@ -46,24 +52,18 @@ Key Tasks:
 
 Tools used: Pandas, Scikit-learn (StandardScaler, PCA), Matplotlib
 
-#### [Exercise 2: Data Integration with Merge and Join](join.ipynb)
+#### [Exercise 4: spaCy transformations](spacy.ipynb)
+Analyzes hotel review descriptions using spaCy for Spanish to compare semantic similarity between different hotel descriptions.
 
-Demonstrates the difference between `merge()` and `join()` for data integration in pandas:
+Key Tasks:
 
-- `merge()`: SQL-style joins based on columns (relational). Ideal when DataFrames share a key column.
-- `join()`: Index-based joining. Simpler syntax for combining DataFrames by their indices.
+- Load Spanish language model (`es_core_news_md`)
+- Process hotel descriptions with spaCy (tokenization, lemmatization, POS tagging)
+- Calculate semantic similarity between hotel descriptions using word vectors
 
-Tools used: Pandas (merge, join)
+Tools used: spaCy, Pandas
 
-#### [Exercise 1: Working with different types of files](Load_data.ipynb)
-Loads and compares three data files in different formats (CSV, Excel, JSON) to identify structural differences, data types, and content patterns.
-
-Key Insights:
-- CSV and Excel Sheet 2 are equivalent (same dimensions and patterns)
-- Excel Sheet 1 is smaller (100 rows) with unnamed columns
-- JSON is a minimal dataset (10 rows, 10 columns)
-
-Tools used: Pandas, OS, JSON
+**Note:** This notebook is an adaptation of the original from Universidad de los Andes, created to demonstrate text transformation skills not covered in the main course project.
 
 ## Course 2: Predictive models using machine learning
 This course focuses on data analysis and machine learning. It covers supervised and unsupervised models, as well as the development of predictive regression and classification models. It also addresses model evaluation and the management of parameters and hyperparameters, following the comprehensive process of creating data-driven solutions, from problem definition to interpretation.
