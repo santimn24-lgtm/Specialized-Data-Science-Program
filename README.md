@@ -19,6 +19,8 @@ Key Tasks:
 
 Tools used: Pandas, YData Profiling, Scikit-learn (StandardScaler, PCA), Matplotlib
 
+**Note:** The command for generating the report with YData Profiling is commented out to reduce the file size
+
 #### [Exercise 4: spaCy transformations](spacy.ipynb)
 Analyzes hotel review descriptions using spaCy for Spanish to compare semantic similarity between different hotel descriptions.
 
