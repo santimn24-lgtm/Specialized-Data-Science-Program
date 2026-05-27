@@ -5,6 +5,20 @@ This repository contains the data science exercises developed as part of the Spe
 ## Course 3: Data Integration and Preparation
 This course covers data integration from multiple sources and essential preparation techniques aligned with ASUM-DM. Topics include data profiling, type validation, consistency checks, duplicate handling, fuzzy matching, feature engineering (normalization, transformation, PCA, scaling), and text processing with spaCy (tokenization). The focus is on preparing reliable, high-quality data for downstream analytics.
 
+#### [Employee Turnover](integration_and_preparation.ipynb)
+Performs data preparation, exploratory data analysis (EDA), feature transformation, standardization, and Principal Component Analysis (PCA) on an employee dataset to evaluate the feasibility of dimensionality reduction for employee turnover prediction.
+
+Key Tasks:
+
+- Data profiling (identifying data types, missing values, duplicates, and basic statistics)
+- Data consistency: comparing values in the dataset with the data dictionary, correcting spelling errors, and validating categorical matches
+- Variable transformation
+- Feature engineering
+- Standardization: applying StandardScaler to normalize numerical attributes
+- Dimension reduction using PCA
+
+Tools used: Pandas, YData Profiling, Scikit-learn (StandardScaler, PCA), Matplotlib
+
 #### [Exercise 4: spaCy transformations](spacy.ipynb)
 Analyzes hotel review descriptions using spaCy for Spanish to compare semantic similarity between different hotel descriptions.
 
