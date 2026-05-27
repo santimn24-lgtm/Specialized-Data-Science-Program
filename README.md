@@ -5,6 +5,19 @@ This repository contains the data science exercises developed as part of the Spe
 ## Course 3: Data Integration and Preparation
 This course covers data integration from multiple sources and essential preparation techniques aligned with ASUM-DM. Topics include data profiling, type validation, consistency checks, duplicate handling, fuzzy matching, feature engineering (normalization, transformation, PCA, scaling), and text processing with spaCy (tokenization). The focus is on preparing reliable, high-quality data for downstream analytics.
 
+#### [Exercise 4: spaCy transformations](spacy.ipynb)
+Analyzes hotel review descriptions using spaCy for Spanish to compare semantic similarity between different hotel descriptions.
+
+Key Tasks:
+
+- Load Spanish language model (`es_core_news_md`)
+- Process hotel descriptions with spaCy (tokenization, lemmatization, POS tagging)
+- Calculate semantic similarity between hotel descriptions using word vectors
+
+Tools used: spaCy, Pandas
+
+**Note:** This notebook is an adaptation of the original from Universidad de los Andes, created to demonstrate text transformation skills not covered in the main course project.
+
 #### [Exercise 3: Principal Component Analysis](PCA.ipynb)
 Applies Principal Component Analysis (PCA) to an employee dataset in order to reduce dimensionality and identify the variables that contribute most to employee turnover.
 
